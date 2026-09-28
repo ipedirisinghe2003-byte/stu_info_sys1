@@ -1,0 +1,24 @@
+@import "utilities";
+@import "header";
+@import "../node_modules/bootstrap/scss/functions.scss";
+@import "../node_modules/bootstrap/scss/variables.scss"; 
+ 
+ 
+ 
+ 
+ 
+ $custom-color: (
+    "primary": #7f95aa,
+ );
+ $theme-colors: map-merge(
+    $theme-colors,
+    $custom-color
+ );
+ @import "../node_modules/bootstrap/scss/bootstrap.scss";
+    
+ 
+ 
+ 
+ 
+ @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
